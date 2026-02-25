@@ -4724,3 +4724,18 @@ input, select, textarea {
   }
 
 }
+
+/* Fix certification image on mobile */
+@media screen and (max-width: 736px) {
+
+  #copyright img,
+  .certification img,
+  .association img {
+    width: 100%;
+    max-width: 360px;   /* adjust if needed */
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+  }
+
+}
