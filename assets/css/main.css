@@ -4703,3 +4703,24 @@ input, select, textarea {
          #footer section:first-child h3 {
          font-size: 1.6rem;
       }
+
+@media screen and (max-width: 736px) {
+
+  #footer {
+    text-align: center;
+  }
+
+  #footer .image,
+  #footer img {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto 1rem auto;
+    display: block;
+  }
+
+  #footer .copyright {
+    font-size: 0.8rem;
+    padding: 1rem 1rem;
+  }
+
+}
