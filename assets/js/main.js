@@ -226,16 +226,12 @@
 						mode: 'middle',
 						top: '15vh',
 						bottom: '-15vh',
-						enter: function() {
-							$intro.addClass('hidden');
-						},
-						leave: function() {
-							$intro.removeClass('hidden');
-						}
+						
 					});
 
 			});
 
 		}
+
 
 })(jQuery);
